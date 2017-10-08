@@ -2,6 +2,7 @@ import media
 import imdb
 import fresh_tomatoes
 
+# creates Movie instances for 6 of my favorite movies
 rating = imdb.get_rating("Zootopia", "2016")
 zootopia = media.Movie(
     "Zootopia",
@@ -62,5 +63,6 @@ the_intern = media.Movie(
     "https://upload.wikimedia.org/wikipedia/en/c/c9/The_Intern_Poster.jpg",
     "https://www.youtube.com/watch?v=ZU3Xban0Y6A")
 
+# generate the html file and open it in the browser with the movie list
 movies = [zootopia, v, lalaland, her, kingsman, the_intern]
 fresh_tomatoes.open_movies_page(movies)

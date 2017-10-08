@@ -7,7 +7,7 @@ git clone https://github.com/chiahan/movie_trailer_website
 ```
 
 ## Execution
-This website will be opened in the browser after executeing the `entertainment_center.py` (python version: 2.7)
+This website will be opened in the browser after executeing the `entertainment_center.py`. (python version: 2.7)
 ```
 python entertainment_center.py
 ```
@@ -20,7 +20,7 @@ The main function of this website. It creates Movie instances for my favorite mo
 The Movie class, provides a way to store movie related information, is defined here.
 
 - `imdb.py`
-Get the imdb rating for movies using [theimdbapi](http://www.theimdbapi.org/) API
+The module provides methods to get the imdb rating for movies using [theimdbapi](http://www.theimdbapi.org/) API.
 
 - `fresh_tomatoes.py`
-Generate the html file and open it in the browser with the movie list.
+The module generates the html file and opens it in the browser with the movie list.
